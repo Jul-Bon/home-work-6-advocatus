@@ -130,16 +130,15 @@ img {
     line-height: 180px;
     letter-spacing: 10px;
     opacity: 0.1;
-    position: relative;
+    position: absolute;
     top: 0;
 }
 
 .caption {
     max-width: 800px;
-    height: 115px;
     border-left: 3px solid #e8bf5d;
     display: block;
-    position: absolute;
+    position: relative;
     top: 35px;
 }
 
@@ -310,7 +309,7 @@ dd {
 /*----- 04 Section Our Clients Say -----*/
 
 .clients .container {
-    padding: 80px 0 100px;
+    padding: 80px 0 140px;
 }
 
 .clients {
@@ -507,7 +506,10 @@ dd {
 
 .list_questions {
     width: 50%;
-    display: inline-block;
+    float: left;
+    padding: 0;
+    margin: 0;
+    list-style: none;
 }
 
 .list_questions a {
@@ -534,18 +536,18 @@ dd {
     float: right;
 }
 
-.list_questions>a:first-child {
-    color: #e8bf5d;
+.answer-container {
+    width: 50%;
+    float: left;
 }
 
 p.answer {
     vertical-align: bottom;
     display: inline-block;
-    box-sizing: border-box;
     width: 450px;
-    margin-left: 30px;
+    margin-left: 40px;
     background-color: #e8bf5d;
-    padding: 35px 30px 60px;
+    padding: 40px 30px 70px;
     color: #111111;
     font-size: 14px;
     line-height: 31px;
@@ -663,7 +665,6 @@ textarea {
 
 .location {
     max-width: 360px;
-    max-height: 360px;
     background-color: #e8bf5d;
 }
 
